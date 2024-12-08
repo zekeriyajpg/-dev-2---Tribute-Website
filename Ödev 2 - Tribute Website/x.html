@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nazım Hikmet - Tribute Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigasyon -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#books">Books</a></li>
+      </ul>
+    </nav>
+    <h1>Nazım Hikmet</h1>
+  </header>
+
+  <!-- Ana Giriş Bölümü -->
+  <section id="home" class="hero">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Naz%C4%B1m_Hikmet_portrait.jpg" alt="Nazım Hikmet">
+    <blockquote>
+      "Yaşamak bir ağaç gibi tek ve hür ve bir orman gibi kardeşçesine." 
+    </blockquote>
+  </section>
+
+  <!-- Biyografi Bölümü -->
+  <section id="info" class="bio">
+    <h2>Biography</h2>
+    <p>
+      Nazım Hikmet (1902-1963), Türk edebiyatının en önemli şairlerinden biridir. Şiirlerinde halkın
+      sorunlarını, özgürlük ve barış arzusunu işler. Sovyetler Birliği'nde eğitim aldıktan sonra, komünizm
+      ideolojisine bağlı kalmış ve bu nedenle birçok kez hapis yatmıştır. "Kuvayi Milliye Destanı" gibi 
+      eserleriyle, modern Türk şiirine öncülük etmiştir.
+    </p>
+    <p>
+      Hikmet'in yaşamı boyunca yazdığı eserler, sadece Türkiye'de değil, dünya çapında birçok dilde çevrilmiş 
+      ve beğenilmiştir. Hem siyasi aktivist hem de edebi bir deha olarak tanınır.
+    </p>
+  </section>
+
+  <!-- Eserler Bölümü -->
+  <section id="books" class="works">
+    <h2>Books & Works</h2>
+    <ul>
+      <li><strong>Kuvayi Milliye Destanı</strong> (1941)</li>
+      <li><strong>Memleketimden İnsan Manzaraları</strong> (1947)</li>
+      <li><strong>Şeyh Bedreddin Destanı</strong> (1936)</li>
+      <li><strong>Taranta Babu'ya Mektuplar</strong> (1935)</li>
+      <li><strong>Sevdalı Bulut</strong> (1959)</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Page Made For Zekeriya's Assignment</p>
+  </footer>
+
+  <style>
+    /* Genel Stil */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: #0a5275;
+      color: white;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 20px;
+      background: #e8f0fe;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    blockquote {
+      margin-top: 20px;
+      font-style: italic;
+      color: #333;
+    }
+
+    .bio, .works {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .bio h2, .works h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .works ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #0a5275;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</body>
+</html>
